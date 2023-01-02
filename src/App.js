@@ -8,11 +8,15 @@ import Events from './components/Events'
 import Parent from './components/Parent'
 import UserGreeting from './components/UserGreeting'
 import NamedList from './components/NamedList'
+import Form from './components/Form'
+import LifecycleA from './components/LifecycleA'
 
 function App() {
   return (
     <div className="App">
-      <NamedList></NamedList>
+      <LifecycleA/>
+      {/* <Form></Form> */}
+      {/* <NamedList></NamedList> */}
       {/* <UserGreeting></UserGreeting> */}
       {/* <Parent></Parent> */}
       {/* <Events></Events> */}

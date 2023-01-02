@@ -1,10 +1,9 @@
 import React from 'react'
 
-const Hello = (props)=> {
+const Hello = ({name,caste})=> {
     return (
         <div>
-            <h1>Hello {props.name} {props.caste}</h1>
-            {props.children}
+            <h1>Hello {name} {caste}</h1>
         </div>
     )
 }

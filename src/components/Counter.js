@@ -26,11 +26,16 @@ class Counter extends Component {
         this.increment()
     }
 
+    clickHandler(){
+        console.log("Button CLicked")
+    }
+
   render() {
     return (
       <div>
         <h1>{this.state.count}</h1>
         <button onClick = {()=> this.increment5()}>Increment</button>
+        <button onClick={this.clickHandler}>Event</button>
       </div>
     )
   }

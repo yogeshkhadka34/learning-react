@@ -6,11 +6,15 @@ import Hello from './components/Hello'
 import Counter from './components/Counter'
 import Events from './components/Events'
 import Parent from './components/Parent'
+import UserGreeting from './components/UserGreeting'
+import NamedList from './components/NamedList'
 
 function App() {
   return (
     <div className="App">
-      <Parent></Parent>
+      <NamedList></NamedList>
+      {/* <UserGreeting></UserGreeting> */}
+      {/* <Parent></Parent> */}
       {/* <Events></Events> */}
       {/* <Counter></Counter> */}
       {/* <Greet ></Greet> */}

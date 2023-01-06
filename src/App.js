@@ -1,20 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Greet from './components/Greet';
-import Welcome from './components/Welcome';
-import Hello from './components/Hello'
-import Counter from './components/Counter'
-import Events from './components/Events'
-import Parent from './components/Parent'
-import UserGreeting from './components/UserGreeting'
-import NamedList from './components/NamedList'
-import Form from './components/Form'
-import LifecycleA from './components/LifecycleA'
+// import Greet from './components/Greet';
+// import Welcome from './components/Welcome';
+// import Hello from './components/Hello'
+// import Counter from './components/Counter'
+// import Events from './components/Events'
+// import Parent from './components/Parent'
+// import UserGreeting from './components/UserGreeting'
+// import NamedList from './components/NamedList'
+// import Form from './components/Form'
+// import LifecycleA from './components/LifecycleA'
+import Test from './components/test/Test'
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA/>
+      <Test></Test>
+      {/* <LifecycleA/> */}
       {/* <Form></Form> */}
       {/* <NamedList></NamedList> */}
       {/* <UserGreeting></UserGreeting> */}

@@ -15,7 +15,8 @@ a{
 .shoe__navbar--logo a{
     color: #fff;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: 0.1em;
    
 }
 
@@ -24,7 +25,7 @@ a{
 }
 .shoe__image {
     position: absolute;
-    width: 210%;
+    width: 230%;
     height: 100vh;
     top: 0;
     left: 0;
@@ -38,6 +39,38 @@ a{
     flex-direction: row;
 }
 
-.shoe__features--image {
+.shoe__heroarea{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 5rem;
+}
+.shoe__heroarea svg{
+        stroke: white;
+        position: absolute;
+        width: 1em;
+        bottom: 2em;
+        margin: 0 2rem ;
+       
+}
+path{
+    fill: white;
+}
+.shoe__hero--title{
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: left;
+    line-height: 4.5rem;
+    margin: 2rem 2rem 1rem;
+}
+.shoe__hero--content{
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0 2rem;
+    padding-right: 3rem;
+}
+
+.shoe__section{
     margin-top: 25rem;
 }

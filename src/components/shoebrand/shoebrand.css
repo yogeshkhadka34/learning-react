@@ -1,0 +1,43 @@
+body{
+    background: greenyellow;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.shoe__navbar{
+    margin: 2rem;
+}
+.shoe__navbar--toggle{
+    cursor: pointer;
+}
+
+.shoe__navbar--logo a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+   
+}
+
+.shoe__navbar--links{
+    display: none;
+}
+.shoe__image {
+    position: absolute;
+    width: 210%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: hidden;
+   
+}
+.shoe__navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.shoe__features--image {
+    margin-top: 25rem;
+}

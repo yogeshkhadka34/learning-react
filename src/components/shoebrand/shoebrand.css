@@ -1,6 +1,7 @@
 body{
     background: greenyellow;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
@@ -25,7 +26,7 @@ a{
 }
 .shoe__image {
     position: absolute;
-    width: 230%;
+    width: 210%;
     height: 100vh;
     top: 0;
     left: 0;
@@ -72,5 +73,17 @@ path{
 }
 
 .shoe__section{
-    margin-top: 25rem;
+    margin-top: 28rem;
+}
+
+nav{
+    background: #fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.shoe__features--image{
+    overflow: hidden;
+    width: 100%;
+    height: 50vh;
 }

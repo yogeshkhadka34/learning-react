@@ -1,0 +1,59 @@
+.pluralsight{
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.pluralsight__sidebar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(32, 37, 40);
+    flex-basis: 40%;
+    flex-grow: 1;
+    padding: 30px;
+}
+.pluralsight__heroarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 60%;
+    flex-shrink: 1;
+    padding: 20px;
+}
+
+input,label,button{
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+    width: 80%;
+}
+input,button{
+    padding: 10px 20px;
+    background-color: rgb(32, 37, 40);
+    border: 1px solid #9e9d9d;
+}
+label,button,p,a{
+    text-decoration: none;
+    color: #9e9d9d;
+    font-size:18px;
+    font-weight: 500;
+}
+button{
+    cursor: pointer;
+    margin: 5px auto;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(204, 65, 15);
+    display: flex;
+    justify-content: center;
+    max-width: 300px;
+}
+

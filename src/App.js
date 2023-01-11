@@ -10,12 +10,16 @@ import './App.css';
 // import NamedList from './components/practice/NamedList'
 // import Form from './components/practice/Form'
 // import LifecycleA from './components/practice/LifecycleA'
-import ShoeBrand from './components/shoebrand/ShoeBrand'
+// import ShoeBrand from './components/shoebrand/ShoeBrand'
+// import Test from './components/test/Test'
+import Pluralsight from './components/pluralsight/Pluralsight';
 
 function App() {
   return (
     <div className="App">
-      <ShoeBrand></ShoeBrand>
+      <Pluralsight></Pluralsight>
+      {/* <Test></Test> */}
+      {/* <ShoeBrand></ShoeBrand> */}
       {/* <LifecycleA/> */}
       {/* <Form></Form> */}
       {/* <NamedList></NamedList> */}

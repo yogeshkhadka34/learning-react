@@ -57,3 +57,20 @@ button{
     max-width: 300px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .pluralsight__heroarea {
+        flex-basis: 50%;
+    }
+
+    .pluralsight__sidebar {
+        flex-basis: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    .pluralsight__heroarea {
+        display: none;
+    }
+
+}

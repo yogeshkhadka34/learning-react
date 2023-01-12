@@ -112,75 +112,92 @@ footer{
     background-color: #334756;
     color: #fff;
 }
-
 /* Media Screen for Ipads and tablets */
-@media screen and (max-width: 820px){
-    
-    nav,.wrapper,.newsletter,.features,footer{
+@media screen and (max-width: 820px) {
+
+    nav,
+    .wrapper,
+    .newsletter,
+    .features,
+    footer {
         padding: 1rem 3rem;
     }
-    nav h2,span{
+
+    nav h2,
+    span {
         font-size: 1rem;
     }
-    .navbar__links--name{
+
+    .navbar__links--name {
         font-size: 12px;
     }
+
     .wrapper h1 {
         color: #fff;
         margin: 0.5rem 0 0.5rem;
         font-size: 2rem;
         font-weight: 800;
     }
+
     .wrapper p {
         color: #fff;
         font-size: 12px;
         line-height: 1rem;
     }
+
     .newsletter {
         height: 7vh;
     }
-        .newsletter h3,
-        footer h3,
-        .features h3 {
-            font-size: 14px;
-        }
-    
-        button {
-            font-size: 12px;
-        }
-    
-        .features p {
-            font-size: 14px;
-        }
+
+    .newsletter h3,
+    footer h3,
+    .features h3 {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .features p {
+        font-size: 14px;
+    }
 }
 
 /* Media Screen for surface duo */
 @media screen and (max-width: 650px) {
-    .wrapper h1{
+    .wrapper h1 {
         font-weight: 800;
         font-size: 1.5rem;
     }
-    .wrapper p{
+
+    .wrapper p {
         font-size: 10px;
         line-height: 12px;
     }
-    .newsletter{
+
+    .newsletter {
         height: 7vh;
     }
-   
-    .newsletter h3, footer h3, .features h3{
+
+    .newsletter h3,
+    footer h3,
+    .features h3 {
         font-size: 12px;
     }
-    button{
+
+    button {
         font-size: 10px;
     }
-    .features p{
+
+    .features p {
         font-size: 12px;
     }
 }
 
 /* Media Screen for Mobiles */
 @media screen and (max-width: 420px) {
+
     nav,
     .wrapper,
     .newsletter,
@@ -188,7 +205,8 @@ footer{
     footer {
         padding: 0.5rem 2rem;
     }
-    nav{
+
+    nav {
         border-bottom: 1.5px solid #FF4C29;
     }
 
@@ -221,27 +239,33 @@ footer{
         justify-content: space-around;
         flex-grow: 1;
     }
-    .newsletter input,.newsletter button{
+
+    .newsletter input,
+    .newsletter button {
         border-radius: 2px;
         font-size: 10px;
         padding: 1px 4px;
         cursor: pointer;
 
     }
-    .features{
+
+    .features {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .features__section{
+
+    .features__section {
         margin: 5px auto;
         padding: 10px 3rem;
     }
-    footer{
+
+    footer {
         height: 10vh;
     }
-    footer h3{
+
+    footer h3 {
         margin-top: 3vh;
     }
 

@@ -10,18 +10,20 @@ import './App.css';
 // import NamedList from './components/practice/NamedList'
 // import Form from './components/practice/Form'
 // import LifecycleA from './components/practice/LifecycleA'
-// import ShoeBrand from './components/shoebrand/ShoeBrand'
+import ShoeBrand from './components/shoebrand/ShoeBrand'
 // import Test from './components/test/Test'
 //import Pluralsight from './components/pluralsight/Pluralsight';
-import AcmeWebDesign from './components/acmeWebDesign/AcmeWebDesign';
+// import AcmeWebDesign from './components/acmeWebDesign/AcmeWebDesign';
+// import JohnDoePortfolio from './components/johnDoePortfolio/JohnDoePortfolio';
 
 function App() {
   return (
     <div className="App">
-      <AcmeWebDesign/>
+      {/* <JohnDoePortfolio></JohnDoePortfolio> */}
+      {/* <AcmeWebDesign/> */}
       {/* <Pluralsight></Pluralsight> */}
       {/* <Test></Test> */}
-      {/* <ShoeBrand></ShoeBrand> */}
+      <ShoeBrand></ShoeBrand>
       {/* <LifecycleA/> */}
       {/* <Form></Form> */}
       {/* <NamedList></NamedList> */}

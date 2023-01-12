@@ -12,12 +12,14 @@ import './App.css';
 // import LifecycleA from './components/practice/LifecycleA'
 // import ShoeBrand from './components/shoebrand/ShoeBrand'
 // import Test from './components/test/Test'
-import Pluralsight from './components/pluralsight/Pluralsight';
+//import Pluralsight from './components/pluralsight/Pluralsight';
+import AcmeWebDesign from './components/acmeWebDesign/AcmeWebDesign';
 
 function App() {
   return (
     <div className="App">
-      <Pluralsight></Pluralsight>
+      <AcmeWebDesign/>
+      {/* <Pluralsight></Pluralsight> */}
       {/* <Test></Test> */}
       {/* <ShoeBrand></ShoeBrand> */}
       {/* <LifecycleA/> */}

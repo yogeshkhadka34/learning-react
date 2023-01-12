@@ -1,6 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 .pluralsight{
     margin: 0;
-    box-sizing: border-box;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -68,7 +70,7 @@ button{
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 625px) {
     .pluralsight__heroarea {
         display: none;
     }

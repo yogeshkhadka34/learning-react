@@ -11,7 +11,7 @@
 header{
     margin-left: 10%;
     padding: 2rem 6rem;
-    height: 90vh;
+    height: 45rem;
     position: relative;
 }
 .navbar--toggle{
@@ -74,7 +74,7 @@ nav{
     position: absolute;
     flex: 2;
     flex-grow: 0;
-    height: 80vh;
+    height: 40rem;
     width: 48%;
     right: 0;
     top: 0;
@@ -86,9 +86,9 @@ nav{
     overflow: hidden;
 }
 .hero--content{
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    margin: 2rem 0;
+    margin: 2rem 4rem 2rem 0;
 }
 
 /* Section area */
@@ -99,7 +99,7 @@ section{
     align-items: center;
 }
 section img{
-    height: 20vh;
+    height: 7rem;
     width: 100%;
     margin-left: 10%;
     margin-right: 10%;
@@ -107,10 +107,12 @@ section img{
 .features{
     display: flex;
     margin: 2rem 0;
+    
 }
 .features .features--description{
     text-align: right;
     flex:3;
+    margin-left: 10%;
 }
 .features .features--image{
     flex: 2;
@@ -128,4 +130,158 @@ section img{
 
 .features--reverse .features--image {
     flex: 3;
+}
+
+@media only screen and (max-width: 1250px){
+    header{
+        height: 34rem;
+    }
+        .heroarea__image {
+            height: 30rem;
+        }
+    
+        .hero--title {
+            font-size: 3rem;
+            line-height: 3.5rem;
+        }
+    
+        .hero--content {
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.2rem;
+            margin: 2rem 3rem 2rem 0;
+            overflow: hidden;
+        }
+        .features{
+            margin: 1rem 0;
+        }
+}
+
+@media only screen and (max-width: 920px) {
+    header {
+        height: 30rem;
+    }
+    .navbar--links{
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 0 1rem;
+
+    }
+    .navbar__logo a{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .heroarea__image {
+        height: 27rem;
+    }
+    .heroarea__container{
+        margin-top: 4rem;
+    }
+
+    .hero--title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .hero--content {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2rem;
+        margin: 1rem 2rem 1rem 0;
+        overflow: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+    header {
+        height: 28rem;
+        margin-left: 5%;
+        padding: 2rem 2rem;
+    }
+
+    .navbar--links {
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0 0.8rem;
+
+    }
+
+    .navbar__logo a {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .heroarea__image {
+        height: 27rem;
+    }
+
+    .heroarea__container {
+        margin-top: 2rem;
+        padding: 1rem 2rem;
+    }
+
+    .hero--title {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .hero--content {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.2rem;
+        margin: 1rem 2rem 1rem 0;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    header {
+        height: 22rem;
+        margin-left: 3%;
+        padding: 1rem 3rem;
+    }
+
+    .navbar--links {
+        font-size: 0.6rem;
+        font-weight: 500;
+        padding: 0 0.5rem;
+
+    }
+
+    .navbar__logo a {
+        font-size: 1rem;
+        font-weight: 800;
+    }
+
+    .heroarea__image {
+        height: 20rem;
+    }
+
+    .heroarea__container {
+        margin-top: 1rem;
+        padding: 1rem 3rem 0 3rem;
+    }
+
+    .hero--title {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .hero--content {
+        font-size: 0.8rem;
+        font-weight: 300;
+        line-height: 1rem;
+        margin: 1rem 2rem 1rem 0;
+        overflow: hidden;
+    }
+    .features--reverse h3, .features--description h3{
+        padding-left: 1%;
+        font-size: 1rem;
+
+    }
+    .features, .features--reverse{
+        margin-right: 5%;
+    }
 }
